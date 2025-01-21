@@ -60,7 +60,8 @@ crontab -e
 
    Os logs serão gerados no diretório logs/ do projeto. Para monitorar os logs em tempo real, use:
 ```bash
-tail -f logs/nginx_status.log
+tail -f logs/online.log
+tail -f logs/offline.log
 ```
 
 ## Arquivos importantes
